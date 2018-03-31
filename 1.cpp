@@ -11,6 +11,7 @@
 using namespace std;
 
 int num_to_del(string &input) {
+  // 求原字符串和其逆字符串的LCS
   string input_reverse(input);
   int length = input.size();
   reverse(input_reverse.begin(), input_reverse.end());
