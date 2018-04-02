@@ -1,7 +1,0 @@
-
-class GrayCode {
-public:
-  vector<string> getGray(int n) {
-    // write code here
-  }
-};
